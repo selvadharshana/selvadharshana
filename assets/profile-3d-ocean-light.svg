@@ -76,7 +76,7 @@
   <text x="3.12" y="-156.00" style="font-size: 13.00px;" text-anchor="start" dominant-baseline="auto" class="fill-weak">10K</text>
   <g class="axis">
     <line x1="0.00" y1="-31.20" x2="0.00" y2="-156.00" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>
-    <text x="0.00" y="-182.52" style="font-size: 20.80px;" text-anchor="middle" dominant-baseline="middle" class="fill-fg">Commit<title>8</title></text>
+    <text x="0.00" y="-182.52" style="font-size: 20.80px;" text-anchor="middle" dominant-baseline="middle" class="fill-fg">Commit<title>2</title></text>
   </g>
   <g class="axis">
     <line x1="29.67" y1="-9.64" x2="148.36" y2="-48.21" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>
@@ -92,20 +92,37 @@
   </g>
   <g class="axis">
     <line x1="-29.67" y1="-9.64" x2="-148.36" y2="-48.21" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>
-    <text x="-185.46" y="-56.40" style="font-size: 20.80px;" text-anchor="middle" dominant-baseline="middle" class="fill-fg">Repo<title>29</title></text>
+    <text x="-185.46" y="-56.40" style="font-size: 20.80px;" text-anchor="middle" dominant-baseline="middle" class="fill-fg">Repo<title>1</title></text>
   </g>
-  <polygon class="radar" points="0.00,-59.38 23.74,-7.71 39.91,54.93 -14.67,20.19 -73.07,-23.74">
-    <animate attributeName="points" values="0.00,-24.96 23.74,-7.71 14.67,20.19 -14.67,20.19 -23.74,-7.71;0.00,-59.38 23.74,-7.71 39.91,54.93 -14.67,20.19 -73.07,-23.74" dur="3s" repeatCount="1"></animate>
+  <polygon class="radar" points="0.00,-40.59 23.74,-7.71 39.91,54.93 -14.67,20.19 -29.67,-9.64">
+    <animate attributeName="points" values="0.00,-24.96 23.74,-7.71 14.67,20.19 -14.67,20.19 -23.74,-7.71;0.00,-40.59 23.74,-7.71 39.91,54.93 -14.67,20.19 -29.67,-9.64" dur="3s" repeatCount="1"></animate>
   </polygon>
 </g>
 
 
 <!-- Language Breakdown Donut Chart -->
+<g transform="translate(40, 520)">
+  <circle cx="130" cy="130" r="94.61111111111111" fill="none" class="stroke-weak" stroke-opacity="0.25" stroke-width="44.777777777777786"></circle>
+  <g transform="translate(286, 0)">
+    <rect x="0" y="27.67" width="14.00" height="14.00" rx="3" fill="#f1e05a" class="stroke-bg" stroke-width="1px">
+      <animate attributeName="fill-opacity" values="0;0.2;1" dur="3s" repeatCount="1"></animate>
+    </rect>
+    <text x="21.00" y="34.67" dominant-baseline="middle" font-size="14.00px" font-weight="600" class="fill-fg">JavaScript <tspan font-weight="500" class="fill-weak" font-size="12.60px">100%</tspan>
+      <animate attributeName="fill-opacity" values="0;0.2;1" dur="3s" repeatCount="1"></animate>
+    </text>
+  </g>
+  <g transform="translate(130, 130)">
+    <path d="M 0 -117 A 117 117 0 1 1 0 117 A 117 117 0 1 1 0 -117 M 0 -72.22222222222221 A 72.22222222222221 72.22222222222221 0 1 0 0 72.22222222222221 A 72.22222222222221 72.22222222222221 0 1 0 0 -72.22222222222221 Z" style="fill: #f1e05a;" class="stroke-bg" stroke-width="2px">
+      <title>JavaScript: 100%</title>
+      <animate attributeName="fill-opacity" values="0;0.5;1" dur="3s" repeatCount="1"></animate>
+    </path>
+  </g>
+</g>
 
 
 <!-- Telemetry & Metrics Summary -->
 <g>
-  <text style="font-size: 32px; font-weight: bold;" x="384" y="830" text-anchor="end" class="fill-strong">8</text>
+  <text style="font-size: 32px; font-weight: bold;" x="384" y="830" text-anchor="end" class="fill-strong">2</text>
   <text style="font-size: 24px;" x="394" y="830" text-anchor="start" class="fill-fg">contributions</text>
 
   <g transform="translate(608, 802), scale(2)">
