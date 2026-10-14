@@ -39,9 +39,9 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
-          visualizers: 'all'
+          visualizers: '3d-city,activity,habits,languages,achievements,velocity,radar,summary,stats'
           theme: 'ocean-light'
-          radar-skills: 'Cognitive AI:0.95,Machine Learning:0.92,Data Science:0.89,Neural Networks:0.88,Core CS:0.94'
+          radar-skills: 'Cognitive Systems:0.90,Programming:0.88,Data Structures:0.85,Git & GitHub:0.92,Problem Solving:0.87'
           output-dir: 'assets'
           filename: 'profile-3d-ocean-light.svg'
         env:
@@ -57,8 +57,8 @@ jobs:
       # 3. Single Atomic Commit & Push
       - name: 🚀 Commit & Push All Visualizers
         run: |
-          git config user.name "${{ github.repository_owner }}"
-          git config user.email "${{ github.repository_owner }}@users.noreply.github.com"
+          git config user.name "selvadharshana"
+          git config user.email "dharshu994389@gmail.com"
           git stash -- assets/ || true
           git pull origin main --rebase || true
           git stash pop || true

@@ -4,7 +4,7 @@
   <!-- Header -->
   <g transform="translate(24, 32)">
     <text fill="#0f766e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">
-      🏆 Developer Achievements &amp; Medals • @Dharshana
+      🏆 Developer Achievements &amp; Medals • @selvadharshana
     </text>
   </g>
 
@@ -16,7 +16,7 @@
           Commit Titan
         </text>
         <text x="42" y="36" fill="#0284c7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">
-          2,480+ commits • Diamond
+          8+ commits • Diamond
         </text>
       </g>
       <g transform="translate(234, 55)">
@@ -26,7 +26,7 @@
           Streak Master
         </text>
         <text x="42" y="36" fill="#d97706" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">
-          0+ active days • Gold
+          1+ active days • Gold
         </text>
       </g>
       <g transform="translate(24, 113)">

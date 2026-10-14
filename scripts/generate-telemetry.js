@@ -2,7 +2,7 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const GITHUB_USERNAME = process.env.GITHUB_USERNAME || 'Dharshana';
+const GITHUB_USERNAME = process.env.GITHUB_USERNAME || 'selvadharshana';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 
 const assetsDir = path.resolve(__dirname, '../assets');

@@ -21,12 +21,12 @@ jobs:
       - name: Generate Daily Activity Telemetry
         run: |
           mkdir -p .github/activity
-          echo "{\"timestamp\": \"$(date -u +'%Y-%m-%dT%H:%M:%SZ')\", \"user\": \"${{ github.repository_owner }}\", \"status\": \"active\"}" > .github/activity/heartbeat.json
+          echo "{\"timestamp\": \"$(date -u +'%Y-%m-%dT%H:%M:%SZ')\", \"user\": \"selvadharshana\", \"status\": \"active\"}" > .github/activity/heartbeat.json
 
       - name: Commit & Push Daily Contribution
         run: |
-          git config user.name "${{ github.repository_owner }}"
-          git config user.email "${{ github.repository_owner }}@users.noreply.github.com"
+          git config user.name "selvadharshana"
+          git config user.email "dharshu994389@gmail.com"
           git add .github/activity/heartbeat.json
           git commit -m "chore(activity): daily engineering streak [$(date +'%Y-%m-%d')]" || echo "No changes"
           git push origin main || true
