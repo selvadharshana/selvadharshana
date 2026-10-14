@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
 
       - name: Generate Daily Activity Telemetry
         run: |
@@ -28,5 +28,5 @@ jobs:
           git config user.name "selvadharshana"
           git config user.email "dharshu994389@gmail.com"
           git add .github/activity/heartbeat.json
-          git commit -m "chore(activity): daily engineering streak [$(date +'%Y-%m-%d')]" || echo "No changes"
-          git push origin main || true
+          git commit -m "chore(activity): daily engineering streak [$(date +'%Y-%m-%d')]"
+          git push origin main
