@@ -17,7 +17,27 @@
     .s {
       shape-rendering: geometricPrecision;
     }
-    @keyframes c_51_6 {
+    @keyframes c_50_3 {
+  0%, 83.45% { fill: var(--c4); }
+  83.50%, 100% { fill: var(--c0); }
+}
+.c_50_3 { animation: c_50_3 28000ms linear infinite; }
+@keyframes c_50_4 {
+  0%, 83.69% { fill: var(--c4); }
+  83.74%, 100% { fill: var(--c0); }
+}
+.c_50_4 { animation: c_50_4 28000ms linear infinite; }
+@keyframes c_50_5 {
+  0%, 83.92% { fill: var(--c4); }
+  83.97%, 100% { fill: var(--c0); }
+}
+.c_50_5 { animation: c_50_5 28000ms linear infinite; }
+@keyframes c_50_6 {
+  0%, 84.16% { fill: var(--c4); }
+  84.21%, 100% { fill: var(--c0); }
+}
+.c_50_6 { animation: c_50_6 28000ms linear infinite; }
+@keyframes c_51_6 {
   0%, 84.40% { fill: var(--c4); }
   84.45%, 100% { fill: var(--c0); }
 }
@@ -37,41 +57,21 @@
   85.16%, 100% { fill: var(--c0); }
 }
 .c_51_3 { animation: c_51_3 28000ms linear infinite; }
-@keyframes c_52_0 {
-  0%, 86.05% { fill: var(--c4); }
-  86.10%, 100% { fill: var(--c0); }
+@keyframes c_51_2 {
+  0%, 85.34% { fill: var(--c4); }
+  85.39%, 100% { fill: var(--c0); }
 }
-.c_52_0 { animation: c_52_0 28000ms linear infinite; }
-@keyframes c_52_1 {
-  0%, 86.29% { fill: var(--c4); }
-  86.34%, 100% { fill: var(--c0); }
+.c_51_2 { animation: c_51_2 28000ms linear infinite; }
+@keyframes c_51_1 {
+  0%, 85.58% { fill: var(--c4); }
+  85.63%, 100% { fill: var(--c0); }
 }
-.c_52_1 { animation: c_52_1 28000ms linear infinite; }
-@keyframes c_52_2 {
-  0%, 86.52% { fill: var(--c4); }
-  86.57%, 100% { fill: var(--c0); }
+.c_51_1 { animation: c_51_1 28000ms linear infinite; }
+@keyframes c_51_0 {
+  0%, 85.82% { fill: var(--c4); }
+  85.87%, 100% { fill: var(--c0); }
 }
-.c_52_2 { animation: c_52_2 28000ms linear infinite; }
-@keyframes c_52_3 {
-  0%, 86.76% { fill: var(--c4); }
-  86.81%, 100% { fill: var(--c0); }
-}
-.c_52_3 { animation: c_52_3 28000ms linear infinite; }
-@keyframes c_52_4 {
-  0%, 87.00% { fill: var(--c4); }
-  87.05%, 100% { fill: var(--c0); }
-}
-.c_52_4 { animation: c_52_4 28000ms linear infinite; }
-@keyframes c_52_5 {
-  0%, 87.23% { fill: var(--c4); }
-  87.28%, 100% { fill: var(--c0); }
-}
-.c_52_5 { animation: c_52_5 28000ms linear infinite; }
-@keyframes c_52_6 {
-  0%, 87.47% { fill: var(--c4); }
-  87.52%, 100% { fill: var(--c0); }
-}
-.c_52_6 { animation: c_52_6 28000ms linear infinite; }
+.c_51_0 { animation: c_51_0 28000ms linear infinite; }
 
     @keyframes s0 {
   0.00% { transform: translate(0px, 0px); }
@@ -2564,24 +2564,24 @@
 <rect class="cell" x="800" y="0" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
 <rect class="cell" x="800" y="16" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
 <rect class="cell" x="800" y="32" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
-<rect class="cell" x="800" y="48" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
-<rect class="cell" x="800" y="64" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
-<rect class="cell" x="800" y="80" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
-<rect class="cell" x="800" y="96" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
-<rect class="cell" x="816" y="0" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
-<rect class="cell" x="816" y="16" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
-<rect class="cell" x="816" y="32" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
+<rect class="cell c_50_3" x="800" y="48" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
+<rect class="cell c_50_4" x="800" y="64" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
+<rect class="cell c_50_5" x="800" y="80" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
+<rect class="cell c_50_6" x="800" y="96" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
+<rect class="cell c_51_0" x="816" y="0" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
+<rect class="cell c_51_1" x="816" y="16" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
+<rect class="cell c_51_2" x="816" y="32" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
 <rect class="cell c_51_3" x="816" y="48" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
 <rect class="cell c_51_4" x="816" y="64" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
 <rect class="cell c_51_5" x="816" y="80" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
 <rect class="cell c_51_6" x="816" y="96" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
-<rect class="cell c_52_0" x="832" y="0" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
-<rect class="cell c_52_1" x="832" y="16" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
-<rect class="cell c_52_2" x="832" y="32" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
-<rect class="cell c_52_3" x="832" y="48" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
-<rect class="cell c_52_4" x="832" y="64" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
-<rect class="cell c_52_5" x="832" y="80" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
-<rect class="cell c_52_6" x="832" y="96" width="12" height="12" rx="2" ry="2" fill="var(--c4)" />
+<rect class="cell" x="832" y="0" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
+<rect class="cell" x="832" y="16" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
+<rect class="cell" x="832" y="32" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
+<rect class="cell" x="832" y="48" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
+<rect class="cell" x="832" y="64" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
+<rect class="cell" x="832" y="80" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
+<rect class="cell" x="832" y="96" width="12" height="12" rx="2" ry="2" fill="var(--c0)" />
 
     <rect class="s s4" x="0" y="0" width="12" height="12" rx="3" ry="3" fill="#00f0ff" opacity="0.52" />
 <rect class="s s3" x="0" y="0" width="12" height="12" rx="3" ry="3" fill="#00f0ff" opacity="0.64" />
