@@ -76,7 +76,7 @@
   <text x="3.12" y="-156.00" style="font-size: 13.00px;" text-anchor="start" dominant-baseline="auto" class="fill-weak">10K</text>
   <g class="axis">
     <line x1="0.00" y1="-31.20" x2="0.00" y2="-156.00" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>
-    <text x="0.00" y="-182.52" style="font-size: 20.80px;" text-anchor="middle" dominant-baseline="middle" class="fill-fg">Commit<title>135</title></text>
+    <text x="0.00" y="-182.52" style="font-size: 20.80px;" text-anchor="middle" dominant-baseline="middle" class="fill-fg">Commit<title>136</title></text>
   </g>
   <g class="axis">
     <line x1="29.67" y1="-9.64" x2="148.36" y2="-48.21" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>
@@ -94,8 +94,8 @@
     <line x1="-29.67" y1="-9.64" x2="-148.36" y2="-48.21" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>
     <text x="-185.46" y="-56.40" style="font-size: 20.80px;" text-anchor="middle" dominant-baseline="middle" class="fill-fg">Repo<title>2</title></text>
   </g>
-  <polygon class="radar" points="0.00,-97.67 23.74,-7.71 39.91,54.93 -14.67,20.19 -38.61,-12.54">
-    <animate attributeName="points" values="0.00,-24.96 23.74,-7.71 14.67,20.19 -14.67,20.19 -23.74,-7.71;0.00,-97.67 23.74,-7.71 39.91,54.93 -14.67,20.19 -38.61,-12.54" dur="3s" repeatCount="1"></animate>
+  <polygon class="radar" points="0.00,-97.77 23.74,-7.71 39.91,54.93 -14.67,20.19 -38.61,-12.54">
+    <animate attributeName="points" values="0.00,-24.96 23.74,-7.71 14.67,20.19 -14.67,20.19 -23.74,-7.71;0.00,-97.77 23.74,-7.71 39.91,54.93 -14.67,20.19 -38.61,-12.54" dur="3s" repeatCount="1"></animate>
   </polygon>
 </g>
 
@@ -107,23 +107,23 @@
     <rect x="0" y="27.67" width="14.00" height="14.00" rx="3" fill="#f1e05a" class="stroke-bg" stroke-width="1px">
       <animate attributeName="fill-opacity" values="0;0.2;1" dur="3s" repeatCount="1"></animate>
     </rect>
-    <text x="21.00" y="34.67" dominant-baseline="middle" font-size="14.00px" font-weight="600" class="fill-fg">JavaScript <tspan font-weight="500" class="fill-weak" font-size="12.60px">98%</tspan>
+    <text x="21.00" y="34.67" dominant-baseline="middle" font-size="14.00px" font-weight="600" class="fill-fg">JavaScript <tspan font-weight="500" class="fill-weak" font-size="12.60px">99%</tspan>
       <animate attributeName="fill-opacity" values="0;0.2;1" dur="3s" repeatCount="1"></animate>
     </text>
     <rect x="0" y="71.00" width="14.00" height="14.00" rx="3" fill="#e34c26" class="stroke-bg" stroke-width="1px">
       <animate attributeName="fill-opacity" values="0;0.4;1" dur="3s" repeatCount="1"></animate>
     </rect>
-    <text x="21.00" y="78.00" dominant-baseline="middle" font-size="14.00px" font-weight="600" class="fill-fg">HTML <tspan font-weight="500" class="fill-weak" font-size="12.60px">2%</tspan>
+    <text x="21.00" y="78.00" dominant-baseline="middle" font-size="14.00px" font-weight="600" class="fill-fg">HTML <tspan font-weight="500" class="fill-weak" font-size="12.60px">1%</tspan>
       <animate attributeName="fill-opacity" values="0;0.4;1" dur="3s" repeatCount="1"></animate>
     </text>
   </g>
   <g transform="translate(130, 130)">
-    <path d="M 0.000 -117.000 A 117 117 0 1 1 -11.038 -116.478 L -6.814 -71.900 A 72.22222222222221 72.22222222222221 0 1 0 0.000 -72.222 Z" style="fill: #f1e05a;" class="stroke-bg" stroke-width="2px">
-      <title>JavaScript: 98%</title>
+    <path d="M 0.000 -117.000 A 117 117 0 1 1 -10.956 -116.486 L -6.763 -71.905 A 72.22222222222221 72.22222222222221 0 1 0 0.000 -72.222 Z" style="fill: #f1e05a;" class="stroke-bg" stroke-width="2px">
+      <title>JavaScript: 99%</title>
       <animate attributeName="fill-opacity" values="0;0.5;1" dur="3s" repeatCount="1"></animate>
     </path>
-    <path d="M -11.038 -116.478 A 117 117 0 0 1 -0.000 -117.000 L -0.000 -72.222 A 72.22222222222221 72.22222222222221 0 0 0 -6.814 -71.900 Z" style="fill: #e34c26;" class="stroke-bg" stroke-width="2px">
-      <title>HTML: 2%</title>
+    <path d="M -10.956 -116.486 A 117 117 0 0 1 -0.000 -117.000 L -0.000 -72.222 A 72.22222222222221 72.22222222222221 0 0 0 -6.763 -71.905 Z" style="fill: #e34c26;" class="stroke-bg" stroke-width="2px">
+      <title>HTML: 1%</title>
       <animate attributeName="fill-opacity" values="0;0.5;1" dur="3s" repeatCount="1"></animate>
     </path>
   </g>
@@ -132,7 +132,7 @@
 
 <!-- Telemetry & Metrics Summary -->
 <g>
-  <text style="font-size: 32px; font-weight: bold;" x="384" y="830" text-anchor="end" class="fill-strong">135</text>
+  <text style="font-size: 32px; font-weight: bold;" x="384" y="830" text-anchor="end" class="fill-strong">136</text>
   <text style="font-size: 24px;" x="394" y="830" text-anchor="start" class="fill-fg">contributions</text>
 
   <g transform="translate(608, 802), scale(2)">
